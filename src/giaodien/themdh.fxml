@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="443.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="103.0" prefHeight="374.0" prefWidth="451.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #cccccc; -fx-border-width: 2;">
+         <children>
+            <HBox layoutX="9.0" layoutY="14.0" prefHeight="27.0" prefWidth="431.0">
+               <children>
+                  <Label prefHeight="33.0" prefWidth="64.0" text="  Phục vụ" />
+                  <ChoiceBox prefHeight="33.0" prefWidth="140.0" />
+                  <Label prefHeight="33.0" prefWidth="74.0" text="      Ngày tạo:" />
+                  <Label prefHeight="33.0" prefWidth="126.0" text="31/10/2014  9:30" />
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="62.0" prefHeight="48.0" prefWidth="431.0">
+               <children>
+                  <BorderPane prefHeight="42.0" prefWidth="67.0">
+                     <center>
+                        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: #ffffff; -fx-text-fill: #FF0000;" text="X" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <VBox prefHeight="48.0" prefWidth="160.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="141.0" text="MILAND">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="59.0" text="Ghi chú.." />
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="48.0" prefWidth="208.0">
+                     <children>
+                        <HBox layoutY="11.0" prefHeight="27.0" prefWidth="241.0">
+                           <children>
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="82.0" style="-fx-border-color: #cccccc;" text="30.000 " />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="7.0" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="73.0" />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="78.0" text="30.000 ">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="110.0" prefHeight="48.0" prefWidth="431.0">
+               <children>
+                  <BorderPane prefHeight="42.0" prefWidth="67.0">
+                     <center>
+                        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: #ffffff; -fx-text-fill: #FF0000;" text="X" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <VBox prefHeight="48.0" prefWidth="160.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="141.0" text="Phomai">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="59.0" text="Ghi chú.." />
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="48.0" prefWidth="208.0">
+                     <children>
+                        <HBox layoutY="11.0" prefHeight="27.0" prefWidth="241.0">
+                           <children>
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="82.0" style="-fx-border-color: #cccccc;" text="125.000 " />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="7.0" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="73.0" />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="78.0" text="125.000 ">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="163.0" prefHeight="48.0" prefWidth="431.0">
+               <children>
+                  <BorderPane prefHeight="42.0" prefWidth="67.0">
+                     <center>
+                        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: #ffffff; -fx-text-fill: #FF0000;" text="X" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <VBox prefHeight="48.0" prefWidth="160.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="142.0" text="BLOODY MARY">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="59.0" text="Ghi chú.." />
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="48.0" prefWidth="208.0">
+                     <children>
+                        <HBox layoutY="11.0" prefHeight="27.0" prefWidth="241.0">
+                           <children>
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="82.0" style="-fx-border-color: #cccccc;" text="30.000 " />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="7.0" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="73.0" />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="78.0" text="30.000 ">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="218.0" prefHeight="48.0" prefWidth="431.0">
+               <children>
+                  <BorderPane prefHeight="42.0" prefWidth="67.0">
+                     <center>
+                        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: #ffffff; -fx-text-fill: #FF0000;" text="X" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <VBox prefHeight="48.0" prefWidth="160.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="144.0" text="Bánh mỳ Phomai">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="59.0" text="Ghi chú.." />
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="48.0" prefWidth="208.0">
+                     <children>
+                        <HBox layoutY="11.0" prefHeight="27.0" prefWidth="241.0">
+                           <children>
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="82.0" style="-fx-border-color: #cccccc;" text="125.000 " />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="7.0" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="73.0" />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="78.0" text="125.000 ">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="266.0" prefHeight="48.0" prefWidth="431.0">
+               <children>
+                  <BorderPane prefHeight="42.0" prefWidth="67.0">
+                     <center>
+                        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: #ffffff; -fx-text-fill: #FF0000;" text="X" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <VBox prefHeight="48.0" prefWidth="160.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="143.0" text="Súp kem 4 mùa">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="59.0" text="Ghi chú.." />
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="48.0" prefWidth="208.0">
+                     <children>
+                        <HBox layoutY="11.0" prefHeight="27.0" prefWidth="241.0">
+                           <children>
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="82.0" style="-fx-border-color: #cccccc;" text="125.000 " />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="7.0" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="73.0" />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="78.0" text="125.000 ">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="314.0" prefHeight="48.0" prefWidth="431.0">
+               <children>
+                  <BorderPane prefHeight="42.0" prefWidth="67.0">
+                     <center>
+                        <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: #ffffff; -fx-text-fill: #FF0000;" text="X" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Button>
+                     </center>
+                  </BorderPane>
+                  <VBox prefHeight="48.0" prefWidth="160.0">
+                     <children>
+                        <Label prefHeight="25.0" prefWidth="141.0" text="Đĩa thịt Tây Ban Nha">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="59.0" text="Ghi chú.." />
+                     </children>
+                  </VBox>
+                  <AnchorPane prefHeight="48.0" prefWidth="208.0">
+                     <children>
+                        <HBox layoutY="11.0" prefHeight="27.0" prefWidth="241.0">
+                           <children>
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="82.0" style="-fx-border-color: #cccccc;" text="125.000 " />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="7.0" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="73.0" />
+                              <Label alignment="BASELINE_RIGHT" prefHeight="27.0" prefWidth="78.0" text="125.000 ">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="14.0" prefHeight="62.0" prefWidth="443.0" style="-fx-background-color: #0681ad;" AnchorPane.bottomAnchor="511.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutY="11.0" prefHeight="27.0" prefWidth="187.0">
+               <children>
+                  <Label prefHeight="33.0" prefWidth="70.0" style="-fx-text-fill: #d4fdff;" text=" HÓA ĐƠN:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="39.0" prefWidth="118.0" style="-fx-text-fill: #ffffff;" text="VIP 1" textFill="TRANSPARENT">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+            <Label layoutY="36.0" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #526b89;" text="   Hóa đơn 1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox layoutX="18.0" layoutY="518.0" prefHeight="33.0" prefWidth="167.0">
+         <children>
+            <Label prefHeight="33.0" prefWidth="111.0" text="Tổng tiền hàng" />
+            <Label alignment="BASELINE_RIGHT" prefHeight="33.0" prefWidth="113.0" text="0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="18.0" layoutY="485.0" prefHeight="33.0" prefWidth="167.0">
+         <children>
+            <Label prefHeight="33.0" prefWidth="120.0" text="Tổng số lượng  hàng" />
+            <Label alignment="BASELINE_RIGHT" prefHeight="33.0" prefWidth="64.0" text="0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Button layoutX="261.0" layoutY="496.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="167.0" style="-fx-text-fill: #ffffff; -fx-background-color: #20c60c;" text="YÊU CẦU THANH TOÁN">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <AnchorPane layoutY="62.0" prefHeight="41.0" prefWidth="443.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label layoutX="394.0" layoutY="14.0" prefHeight="27.0" prefWidth="49.0" style="-fx-background-color: #ffffff;" text=" Ghi chú" textFill="#000000a3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button layoutX="320.0" layoutY="15.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #26c90e; -fx-text-fill: #ffffff;" text="Thông tin">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

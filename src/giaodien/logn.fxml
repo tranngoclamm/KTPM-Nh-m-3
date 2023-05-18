@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="334.0" style="-fx-background-color: #ffffff; -fx-border-color: #d5d5d5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="61.0" prefHeight="244.0" prefWidth="334.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <TextField layoutX="23.0" layoutY="47.0" prefHeight="42.0" prefWidth="284.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Label layoutX="23.0" layoutY="20.0" prefHeight="27.0" prefWidth="126.0" text="Tên người dùng">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="109.0" prefHeight="27.0" prefWidth="126.0" text="Mật khẩu">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="21.0" layoutY="136.0" prefHeight="42.0" prefWidth="284.0">
+               <font>
+                  <Font size="13.0" />
+               </font></PasswordField>
+            <Button layoutX="179.0" layoutY="194.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="126.0" style="-fx-text-fill: #ffffff; -fx-background-color: #2171b0;" text="Đăng nhập">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Hyperlink layoutX="23.0" layoutY="198.0" prefHeight="27.0" prefWidth="126.0" text="Bạn quên mật khẩu?" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="12.0" prefHeight="49.0" prefWidth="334.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="165.0" layoutY="4.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="169.0" style="-fx-background-color: #26ccca;" text="Đăng nhập thường" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="-1.0" layoutY="4.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="169.0" style="-fx-border-color: #d5d5d5; -fx-background-color: #ffffff; -fx-border-width: 1.2;" text="QR" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="165.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

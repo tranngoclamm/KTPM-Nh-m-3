@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="1172.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BarChart barGap="6.0" categoryGap="3.0" layoutX="4.0" layoutY="278.0" legendSide="TOP" prefHeight="355.0" prefWidth="1163.0" style="-fx-background-color: #ffffff;" title="DOANH THU VÀ VỐN THEO THỜI GIAN">
+        <xAxis>
+          <CategoryAxis prefHeight="35.0" prefWidth="1034.0" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis prefHeight="262.0" prefWidth="69.0" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="8.0" layoutY="3.0" prefHeight="27.0" prefWidth="159.0" text=" Báo cáo doanh thu">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-3.0" layoutY="48.0" prefHeight="220.0" prefWidth="1172.0">
+         <children>
+            <HBox layoutX="3.0" layoutY="145.0" prefHeight="58.0" prefWidth="1172.0" style="-fx-border-color: #dbdbdb; -fx-border-width: 2;">
+               <children>
+                  <Label prefHeight="47.0" prefWidth="28.0" />
+                  <AnchorPane prefHeight="47.0" prefWidth="53.0">
+                     <children>
+                        <ImageView fitHeight="36.0" fitWidth="31.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/money%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="100.0" text="285.961.001" textFill="#000000b9">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="76.0" text="Doanh thu" textFill="#00000099" />
+                     </children>
+                  </VBox>
+                  <Label prefHeight="47.0" prefWidth="122.0" />
+                  <AnchorPane prefHeight="47.0" prefWidth="53.0">
+                     <children>
+                        <ImageView fitHeight="36.0" fitWidth="31.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/money%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="100.0" text="1.869.000" textFill="#000000b9">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="76.0" text="Tổng vốn " textFill="#00000099" />
+                     </children>
+                  </VBox>
+                  <Label prefHeight="47.0" prefWidth="131.0" />
+                  <AnchorPane prefHeight="47.0" prefWidth="58.0">
+                     <children>
+                        <ImageView fitHeight="36.0" fitWidth="31.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/refund%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="100.0" text="0" textFill="#000000b9">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="76.0" text="Trả hàng" textFill="#00000099" />
+                     </children>
+                  </VBox>
+                  <Label prefHeight="47.0" prefWidth="92.0" />
+                  <AnchorPane prefHeight="47.0" prefWidth="53.0">
+                     <children>
+                        <ImageView fitHeight="36.0" fitWidth="31.0" layoutX="15.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/money%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="100.0" text="284.092.001" textFill="#000000b9">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="76.0" text="Lợi nhuận" textFill="#00000099" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <AnchorPane layoutX="3.0" layoutY="16.0" prefHeight="118.0" prefWidth="1172.0" style="-fx-border-width: 2;">
+               <children>
+                  <Button layoutX="32.0" layoutY="98.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="70.0" style="-fx-background-color: #7364bf; -fx-text-fill: #ffffff;" text="Tìm kiếm">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <HBox layoutX="32.0" layoutY="24.0" prefHeight="27.0" prefWidth="448.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="154.0" text="Loại thời gian">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox prefHeight="27.0" prefWidth="236.0" style="-fx-background-color: #ffffff; -fx-border-color: #dbdbdb; -fx-border-radius: 3;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="32.0" layoutY="61.0" prefHeight="27.0" prefWidth="448.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="154.0" text="Ngày bắt đầu">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <DatePicker prefHeight="27.0" prefWidth="236.0" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="480.0" layoutY="60.0" prefHeight="27.0" prefWidth="357.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="118.0" text="Ngày kết thúc">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <DatePicker prefHeight="31.0" prefWidth="236.0" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="480.0" layoutY="23.0" prefHeight="27.0" prefWidth="357.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="119.0" text="Công ty">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox prefHeight="27.0" prefWidth="235.0" style="-fx-background-color: #ffffff; -fx-border-color: #dbdbdb; -fx-border-radius: 3;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="896.0" layoutY="23.0" prefHeight="27.0" prefWidth="262.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="179.0" text="Lọc tất cả">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox prefHeight="27.0" prefWidth="282.0" style="-fx-background-color: #ffffff; -fx-border-color: #dbdbdb; -fx-border-radius: 3;" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="30.0" prefHeight="41.0" prefWidth="1172.0" style="-fx-border-color: #dbdbdb; -fx-border-width: 2;">
+         <children>
+            <Button layoutX="21.0" layoutY="7.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="76.0" style="-fx-background-color: #28bce0; -fx-border-radius: 2;" text="Thời gian" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="175.0" layoutY="7.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="76.0" style="-fx-background-color: #ffffff; -fx-border-color: #dbdbdb; -fx-border-radius: 2;" text="Sản phẩm" textFill="#000000ba" />
+            <Button layoutX="252.0" layoutY="7.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="92.0" style="-fx-background-color: #ffffff; -fx-border-color: #dbdbdb; -fx-border-radius: 2;" text="Khách hàng" textFill="#000000ba" />
+            <Button layoutX="98.0" layoutY="7.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="76.0" style="-fx-background-color: #ffffff; -fx-border-color: #dbdbdb; -fx-border-radius: 2;" text="Nhân viên" textFill="#000000ba" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
